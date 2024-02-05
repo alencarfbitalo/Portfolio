@@ -1,0 +1,64 @@
+/*ANIMAÇÕES FLUTUAR*/
+
+@keyframes slideUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-50px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+
+/*COR*/
+@keyframes colors {
+    0% {
+        background-color: #F0D4BC;
+      }
+      50% {
+        background-color: #F0D4BC;
+      }
+      100% {
+        background-color: #F0D4BC;
+      }
+}
+
+/*OPACICIDADE*/
+@keyframes fadeInOut {
+    0% {
+      opacity: 0.5;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.5;
+    }
+  }
+
+
+/*FIM animações*/
+
+.main__content .Image1 img {
+    position: relative;
+    background-size: cover;
+    border-radius: 30%;
+    animation: slideUpDown 3s ease-in-out infinite, colors 4s linear infinite;
+    /*tempo de animação, velocidade, infinito*/
+
+}
