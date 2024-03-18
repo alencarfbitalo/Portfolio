@@ -140,7 +140,7 @@ main {
 }
 #projetos .cards {
   display: flex;
-  margin-top: 1.5rem;
+  margin-top: 2.5rem;
   gap: 1.5rem;
 }
 #projetos .cards .card {
@@ -182,14 +182,7 @@ main {
   height: auto;
   padding-bottom: 0.75rem;
 }
-#projetos .cards .card-5 img {
-  width: 24.625rem;
-  height: 11.875rem !important;
-}
-#projetos .cards .card-6 img {
-  width: 24.625rem;
-  height: 11.875rem !important;
-}
+
 #projetos .more-projects {
   display: flex;
   justify-content: center;
